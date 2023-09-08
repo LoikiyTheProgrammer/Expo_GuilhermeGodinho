@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, aquamarine, purple);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  background-image: linear-gradient(to bottom left, aquamarine, purple);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  font-size: medium;
+
+}
+code{
+  font-size: 1.2em;
+  margin-right: 50%;
+}
+</style>
+
+<title>Diferença entre API e Single Page Application</title>
+</head>
+<body>
+  <div class="container">
+    <h1>API vs Single Page Application (SPA)</h1>
+    <p>API significa <strong>Interface de Programação de Aplicativos</strong>. É um conjunto de endpoints que permite que diferentes softwares se comuniquem entre si.</p>
+    <p>Uma <strong>Single Page Application (SPA)</strong> é um tipo de aplicativo web que carrega uma única página HTML e atualiza o conteúdo dinamicamente, sem recarregar a página inteira.</p>
+    <h2>Exemplo de API:</h2>
+    <pre>
+      <code>
+        GET /api/users - Retorna a lista de usuários.
+        POST /api/users - Cria um novo usuário.
+        PUT /api/users/{id} - Atualiza os dados de um usuário existente.
+        DELETE /api/users/{id} - Remove um usuário.
+      </code>
+    </pre>
+    <h2>Exemplo de Single Page Application:</h2>
+    <p>Uma SPA como o Facebook permite que você navegue entre diferentes seções (Feed de notícias, Perfil, Mensagens) sem recarregar toda a página.</p>
+  </div>
+</body>
+</html>
